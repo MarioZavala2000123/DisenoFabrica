@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DisenoFabricaApplication {
+public class FactoryPatternConexion {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DisenoFabricaApplication.class, args);
+		SpringApplication.run(FactoryPatternConexion.class, args);
 	}
 
 }
