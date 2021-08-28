@@ -1,7 +1,9 @@
 package edu.uspg;
 
-public class ConexionFactory {
+import iConexion.iConexion;
+
+public abstract class ConexionFactory {
 	
-	
+	public abstract iConexion getiConexion(String concexion);
 
 }
